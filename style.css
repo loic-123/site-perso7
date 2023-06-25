@@ -39,8 +39,6 @@ html {
     scroll-behavior: smooth
 }
 
-
-
 .menu {
     position: absolute;
     padding: 0;
@@ -91,7 +89,7 @@ html {
     text-decoration: none;
     z-index: 12;
     display: block;
-    padding: 5px 78px;
+    padding: 0px 50px;
     color: black;
     font-weight: 775;
     font-family: arial;
