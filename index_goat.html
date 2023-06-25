@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Goat 🐐</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style_goat.css">
+    <link rel="stylesheet" href="style_menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">
+                    Sports
+                </a>
+                <ul>
+                    <li class="subnav"><a href="index_mtb.html">MTB</a></li>
+                    <li class="subnav"><a href="bestplace.html">Places MTB</a></li>
+                    <li class="subnav"><a href="indexroad.html">Road bike</a></li>
+                    <li class="subnav"><a href="bestplaceroad.html">Places Road bike</a></li>
+                </ul>
+            </li>
+            <li><a href="indexwhy.html">Why ?</a></li>
+            <li><a href="index_goat.html">The Goat 🐐</a></li>
+            <li><a href="index_contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="section1">
+        <div class="title">
+            <h1>The Goat 🐐</h1>
+        </div>
+        <div class="video-container">
+            <video autoplay>
+                <source src="vid/goat1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="download">
+        <button class="definitive_version"><a href="fichier_velo.xlsm">Download <br><span>(latest
+                    version)</span></a></button>
+        <img class='excel' src="img/excel.png" alt="">
+    </div>
+
+    <table>
+        <caption>Project progress</caption>
+        <tr>
+            <th>Version</th>
+            <th>Additions made</th>
+            <th>Release date</th>
+            <th>Status</th>
+            <th>Download</th>
+        </tr>
+        <tr>
+            <td>V1</td>
+            <td>Differentiated profiles</td>
+            <td>20/04/2023</td>
+            <td>Released</td>
+            <td><button class="tableau"><a href="fichier_velo.xlsm">Download</a></button></td>
+        </tr>
+        <tr>
+            <td>V2</td>
+            <td>Consideration of drafting</td>
+            <td>Not disclosed</td>
+            <td>In development</td>
+            <td><button class="tableau"><a href="#">Download</a></button></td>
+        </tr>
+    </table>
+
+    <div class="formulaire">
+        <h2>Suggest an improvement for the excel calculator</h2>
+        <form method="get" action="">
+            <fieldset>
+                <legend>Your details</legend>
+                <p>
+                    <label for="prenom">Your name :</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="30" maxlength="20" required>
+                </p>
+                <br>
+                <p>
+                    <label for="nom">Your surname :</label>
+                    <input type="text" name="nom" id="nom" placeholder="Ex. : Kent" size="30" maxlength="20"  required>
+                </p>
+                <br>
+                <p>
+                    <label for="mail">Your email adress :</label>
+                    <input type="email" name="mail" id="mail" placeholder="Ex. : goat.de.stan@gmail.com" size="30"
+                        maxlength="25" required>
+                </p>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Your suggests</legend>
+                <p>
+                    <label for="amelioration">Suggest an improvement for the excel calculator :</label>
+                    <br>
+                    <textarea name="amelioration" id="amelioration"
+                        placeholder="Ex.: consideration of the flexibility of the cyclist" required></textarea>
+                </p>
+            </fieldset>
+            <!-- <input type="submit" value="Envoyer"> -->
+            <input class="button_envoie"  type="image" value="Envoyer" src="img/button_rocket.jpg">
+        </form>
+    </div>

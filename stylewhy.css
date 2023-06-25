@@ -1,0 +1,70 @@
+a:visited {
+  color: black;
+}
+
+
+.img1 {
+  background-image: url(../img/why.jpg);
+  font-family: 'Alata', sans-serif;
+  color: black;
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: 2s;
+  overflow: hidden;
+}
+
+a:visited {
+  color: black;
+}
+
+.img1 h1 {
+  font-size: 120px;
+  z-index: 1;
+  opacity: 1;
+  transition: all 1.2s;
+}
+
+.video-container {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  padding: 0% 20%;
+  z-index: 2;
+  /* background-color: red; */
+}
+
+.title:hover h1 {
+  transform: scale(1.04);
+  transition: all 1.2s;
+  color: white;
+  font-size: 140px;
+  font-weight: 900;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}

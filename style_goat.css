@@ -1,0 +1,218 @@
+a:visited {
+    color: black;
+}
+
+.section1 {
+    font-family: 'Alata', sans-serif;
+    color: black;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.section1 h1 {
+    font-size: 8em;
+    z-index: 1;
+    opacity: 1;
+    transition: all 1.2s;
+}
+
+.video-container {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    padding: 0% 20%;
+    z-index: 2;
+}
+
+.title:hover h1 {
+    transform: scale(1.04);
+    transition: all 1.5s;
+    color: white;
+    font-size: 8.5em;
+    font-weight: 900;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -60%);
+}
+
+.definitive_version {
+    position: relative;
+    padding: 1% 3%;
+    margin-left: 10%;
+    background-color: rgb(225, 169, 14);
+    background: linear-gradient(rgb(225, 155, 14), #edd0ac);
+    border-color: black;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.definitive_version a {
+    font-family: system-ui;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: center;
+}
+
+.excel{
+    height: 65vh;
+    padding-top: 0px ;
+    margin : 5% 2% 5% 2%;
+    border-radius: 3%;
+    float: right;
+    shape-outside: margin-box; 
+}
+
+span{
+    font-size: 0.6em;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 10%;
+    background-image: url(img/excel_background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.definitive_version:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease 0s;
+}
+
+/* .definitive_version a:hover {
+    color: red;
+    font-weight: 700;
+} */
+
+/* img:hover + .definitive_version{
+    transform: scale(1.3);
+    transition: all 0.5s ease 0s;
+} */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ 
+{
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    font-family: system-ui;
+    text-align: center
+}
+
+.tableau{
+    position: relative;
+    padding: 1.5% 2%;
+    background-color: rgb(128, 132, 193);
+    border-color: black;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.tableau a {
+    font-size: 0.9em;
+    font-family: system-ui;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: center; 
+}
+
+caption{
+    font-family: system-ui;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.6em;
+    color:rgb(128, 132, 193) ;
+}
+
+h2{
+    text-align: center;
+    font-family: system-ui; 
+    font-weight: 600;
+    font-size: 1.6em;
+    color:white ;
+    padding-bottom: 2%;
+}
+
+.formulaire{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 8%;
+    background-color: rgb(128, 132, 193);
+}
+
+textarea{    
+    text-align: center;
+    font-family: system-ui;
+    width: 70%; 
+}
+
+p{
+    text-align: center;
+    font-family: system-ui; 
+    font-weight: 500;
+}
+
+/* modifier couleur fond champs requis */
+:required {   
+    background-color:white;
+}
+
+legend{
+    /* text-align: left; */
+    font-family: system-ui; 
+    font-weight: 500;
+    font-size: 1.1em;
+    color: orange;
+}
+.button_envoie{
+    height:12%;
+    width: 12%;
+text-align: center;
+margin: 2% 44% 1% 44%;
+}
+
+fieldset{
+    margin: 1%;
+    margin-top: 2%;
+}
