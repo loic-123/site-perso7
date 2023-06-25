@@ -3,6 +3,34 @@
     padding: 0px;
 }
 
+.button_discover{
+    /* display: inline-block; */
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
+    z-index: 999999;
+    bottom: 3%;
+    right: 3%;
+    /* background: linear-gradient(rgb(225, 155, 14), #edd0ac); */
+    width: 180px;
+    background: url(img/button.jpg) center no-repeat;
+    background-size:cover;
+    opacity: 1;
+    padding: 15px 25px;
+    color: white;
+    border: solid 1px black;
+    border-radius: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  
+  .button_discover:hover{
+    background: linear-gradient(rgb(185, 115, 0), rgb(197, 168, 132));
+    text-decoration: none;
+  }
+
+
 ::-webkit-scrollbar {
     display: none;
 }
