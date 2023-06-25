@@ -3,33 +3,56 @@
     padding: 0px;
 }
 
-.button_discover{
+.button_discover {
     /* display: inline-block; */
     text-align: center;
     position: fixed;
     text-decoration: none;
     z-index: 999999;
     bottom: 3%;
-    right: 3%;
+    right: 2%;
     /* background: linear-gradient(rgb(225, 155, 14), #edd0ac); */
     width: 180px;
     background: url(img/button.jpg) center no-repeat;
-    background-size:cover;
+    background-size: cover;
     opacity: 1;
-    padding: 15px 25px;
+    padding: 10px 20px;
     color: white;
     border: solid 1px black;
     border-radius: 20px;
     font-family: system-ui;
     font-weight: 600;
     font-size: 1.5em;
-  }
-  
-  .button_discover:hover{
+}
+
+.button_discover:hover {
     opacity: .8;
     text-decoration: none;
-  }
+}
 
+.button_contact {
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
+    z-index: 999999;
+    bottom: 3%;
+    right: 2%;
+    opacity: .9;
+    background: linear-gradient(rgb(185, 209, 230), rgb(205, 229, 250));
+    width: 150px;
+    padding: 10px 5px;
+    color: white;
+    /* border: solid 1px black; */
+    border-radius: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.button_contact:hover {
+    opacity: .7;
+    text-decoration: none;
+}
 
 ::-webkit-scrollbar {
     display: none;
