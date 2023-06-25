@@ -160,7 +160,7 @@ caption{
     font-family: system-ui;
     margin-bottom: 5px;
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.8em;
     color:rgb(128, 132, 193) ;
 }
 
@@ -168,9 +168,9 @@ h2{
     text-align: center;
     font-family: system-ui; 
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.8em;
     color:white ;
-    padding-bottom: 2%;
+    padding-bottom: 0px;
 }
 
 .formulaire{
@@ -203,7 +203,7 @@ legend{
     font-family: system-ui; 
     font-weight: 500;
     font-size: 1.1em;
-    color: orange;
+    color: white;
 }
 .button_envoie{
     height:12%;

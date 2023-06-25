@@ -75,18 +75,19 @@
     </table>
 
     <div class="formulaire">
-        <h2>Suggest an improvement for the excel calculator</h2>
+        <h2>Suggest an improvement for the excel calculator or the web site</h2>
         <form method="get" action="">
             <fieldset>
                 <legend>Your details</legend>
                 <p>
                     <label for="prenom">Your name :</label>
-                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="30" maxlength="20" required>
+                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="30" maxlength="20"
+                        required>
                 </p>
                 <br>
                 <p>
                     <label for="nom">Your surname :</label>
-                    <input type="text" name="nom" id="nom" placeholder="Ex. : Kent" size="30" maxlength="20"  required>
+                    <input type="text" name="nom" id="nom" placeholder="Ex. : Kent" size="30" maxlength="20" required>
                 </p>
                 <br>
                 <p>
@@ -99,13 +100,20 @@
             <fieldset>
                 <legend>Your suggests</legend>
                 <p>
-                    <label for="amelioration">Suggest an improvement for the excel calculator :</label>
+                    <label for="objet">Your suggestion concerns :</label><br>
+                    <select name="objet" id="objet" required>
+                        <option value="siteweb">Web Site</option>
+                        <option value="fonctionnalite">Excel calculator</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="amelioration">Suggestion :</label>
                     <br>
                     <textarea name="amelioration" id="amelioration"
                         placeholder="Ex.: consideration of the flexibility of the cyclist" required></textarea>
                 </p>
             </fieldset>
             <!-- <input type="submit" value="Envoyer"> -->
-            <input class="button_envoie"  type="image" value="Envoyer" src="img/button_rocket.jpg">
+            <input class="button_envoie" type="image" value="Envoyer" src="img/button_rocket.jpg">
         </form>
     </div>
