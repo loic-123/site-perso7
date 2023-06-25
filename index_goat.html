@@ -27,7 +27,7 @@
                     <li class="subnav"><a href="indexwhy.html">Why ?</a></li>
                 </ul>
             </li>
-            
+
             <li><a href="index_goat.html">The Goat 🐐</a></li>
             <li><a href="index_contact.html">Contact</a></li>
         </ul>
@@ -80,39 +80,43 @@
         <form method="get" action="">
             <fieldset>
                 <legend>Your details</legend>
-                <p>
-                    <label for="prenom">Your name :</label>
-                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="30" maxlength="20"
-                        required>
-                </p>
-                <br>
-                <p>
-                    <label for="nom">Your surname :</label>
-                    <input type="text" name="nom" id="nom" placeholder="Ex. : Kent" size="30" maxlength="20" required>
-                </p>
-                <br>
-                <p>
-                    <label for="mail">Your email adress :</label>
-                    <input type="email" name="mail" id="mail" placeholder="Ex. : goat.de.stan@gmail.com" size="30"
-                        maxlength="25" required>
-                </p>
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="prenom">Your name :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="25"
+                            maxlength="20" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="nom">Your surname :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Ex. : Kent" size="25" maxlength="20"
+                            required>
+                    </div>
+                    <div class="form-column">
+                        <label for="mail">Your email adress :</label>
+                        <input type="email" name="mail" id="mail" placeholder="Ex. : goat.de.stan@gmail.com" size="25"
+                            maxlength="25" required>
+                    </div>
+                </div>
                 <br>
             </fieldset>
             <fieldset>
                 <legend>Your suggests</legend>
-                <p>
-                    <label for="objet">Your suggestion concerns :</label><br>
-                    <select name="objet" id="objet" required>
-                        <option value="siteweb">Web Site</option>
-                        <option value="fonctionnalite">Excel calculator</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="amelioration">Suggestion :</label>
-                    <br>
-                    <textarea name="amelioration" id="amelioration"
-                        placeholder="Ex.: consideration of the flexibility of the cyclist" required></textarea>
-                </p>
+                <div class="information">
+                    <div class="sub-information">
+                        <label for="objet">Your suggestion concerns :</label>
+                        <br>
+                        <select name="objet" id="objet" required>
+                            <option value="siteweb">Web Site</option>
+                            <option value="fonctionnalite">Excel calculator</option>
+                        </select>
+                    </div>
+                    <div class="sub-information">
+                        <label for="amelioration">Suggestion :</label>
+                        <br>
+                        <textarea name="amelioration" id="amelioration"
+                            placeholder="Ex.: consideration of the flexibility of the cyclist" required></textarea>
+                    </div>
+                </div>
             </fieldset>
             <!-- <input type="submit" value="Envoyer"> -->
             <input class="button_envoie" type="image" value="Envoyer" src="img/button_rocket.jpg">

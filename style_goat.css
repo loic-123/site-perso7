@@ -80,20 +80,20 @@ video {
     position: center;
 }
 
-.excel{
+.excel {
     height: 65vh;
-    padding-top: 0px ;
-    margin : 5% 2% 5% 2%;
+    padding-top: 0px;
+    margin: 5% 2% 5% 2%;
     border-radius: 3%;
     float: right;
-    shape-outside: margin-box; 
+    shape-outside: margin-box;
 }
 
-span{
+span {
     font-size: 0.6em;
 }
 
-.download{
+.download {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -107,7 +107,7 @@ span{
     background-position: center;
 }
 
-.definitive_version:hover{
+.definitive_version:hover {
     transform: scale(1.1);
     transition: all 0.5s ease 0s;
 }
@@ -129,8 +129,11 @@ table {
     margin-bottom: 5%;
 }
 
-td, th /* Mettre une bordure sur les td ET les th */ 
-{
+td,
+th
+
+/* Mettre une bordure sur les td ET les th */
+    {
     border: 1px solid black;
     padding: 20px;
     margin: auto;
@@ -138,7 +141,7 @@ td, th /* Mettre une bordure sur les td ET les th */
     text-align: center
 }
 
-.tableau{
+.tableau {
     position: relative;
     padding: 1.5% 2%;
     background-color: rgb(128, 132, 193);
@@ -153,66 +156,132 @@ td, th /* Mettre une bordure sur les td ET les th */
     text-decoration: none;
     color: white;
     font-weight: 600;
-    position: center; 
+    position: center;
 }
 
-caption{
+caption {
     font-family: system-ui;
     margin-bottom: 5px;
     font-weight: 600;
     font-size: 1.8em;
-    color:rgb(128, 132, 193) ;
+    color: rgb(128, 132, 193);
 }
 
-h2{
+h2 {
     text-align: center;
-    font-family: system-ui; 
+    font-family: system-ui;
     font-weight: 600;
     font-size: 1.8em;
-    color:white ;
+    color: white;
     padding-bottom: 0px;
 }
 
-.formulaire{
-    width: 50%;
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    /* padding: 15px; */
+    border-radius: 3px;
+    border: none;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+
+/* input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+} */
+
+.formulaire {
+    width: 70%;
     padding: 10px;
     margin: auto;
     margin-bottom: 8%;
+    padding-top: 20px;
     background-color: rgb(128, 132, 193);
 }
 
-textarea{    
+
+input,
+textarea {
     text-align: center;
     font-family: system-ui;
-    width: 70%; 
+    width: 70%;
+    padding: 15px;
+    border: none;
 }
 
-p{
+select{
     text-align: center;
-    font-family: system-ui; 
+    font-family: system-ui;
+    width: 25%;
+    padding: 5px;
+    border: none;
+}
+
+.sub-information {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form-column,.sub-information, option,select {
+    text-align: center;
+    font-family: system-ui;
     font-weight: 500;
 }
 
 /* modifier couleur fond champs requis */
-:required {   
-    background-color:white;
+:required {
+    background-color: white;
 }
 
-legend{
+legend {
     /* text-align: left; */
-    font-family: system-ui; 
+    font-family: system-ui;
     font-weight: 500;
     font-size: 1.1em;
     color: white;
 }
-.button_envoie{
-    height:12%;
+
+.button_envoie {
+    height: 12%;
     width: 12%;
-text-align: center;
-margin: 2% 44% 1% 44%;
+    text-align: center;
+    margin: 2% 44% 1% 44%;
 }
 
-fieldset{
+fieldset {
     margin: 1%;
     margin-top: 2%;
+}
+select, textarea{
+    margin-top: 10px;
 }
