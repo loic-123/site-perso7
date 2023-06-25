@@ -112,11 +112,15 @@ html {
     text-decoration: none;
     z-index: 12;
     display: block;
-    padding: 0px 50px;
+    padding: 0px 40px;
     color: black;
     font-weight: 775;
     font-family: arial;
     font-size: 2em;
+}
+
+.menu_home a{
+    padding-left: 60px;
 }
 
 .menu a:hover {
