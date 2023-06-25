@@ -26,7 +26,7 @@
   }
   
   .button_discover:hover{
-    background: linear-gradient(rgb(185, 115, 0), rgb(197, 168, 132));
+    opacity: .8;
     text-decoration: none;
   }
 
