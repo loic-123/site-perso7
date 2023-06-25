@@ -1,6 +1,6 @@
-a:visited {
+/* a:visited {
   color: black;
-}
+} */
 
 .img1 {
   /* background-image: url(../../img/img1.jpg); */
@@ -23,9 +23,6 @@ a:visited {
   overflow: hidden;
 }
 
-a:visited {
-  color: black;
-}
 
 .img1 h1 {
   font-size: 120px;
