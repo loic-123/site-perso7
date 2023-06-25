@@ -23,7 +23,7 @@ a:visited {
 }
 
 .section1 h1 {
-    font-size: 8em;
+    font-size: 6.5em;
     z-index: 1;
     opacity: 1;
     transition: all 1.2s;
@@ -47,7 +47,7 @@ a:visited {
     transform: scale(1.04);
     transition: all 1.5s;
     color: white;
-    font-size: 8.5em;
+    font-size: 8em;
     font-weight: 900;
 }
 
